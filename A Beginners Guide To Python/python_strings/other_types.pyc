@@ -1,0 +1,8 @@
+#In Python the string 'l' is not the same as the string 'L'; 
+one contains the lower-case letter 'l' and one the upper-case letter 'L'. 
+If case sensitively does not matter to you 
+then you should convert any strings 
+you want to compare into a common case before doing any testing; 
+for example 
+using lower() as in
+some_string.lower().startswith('h')
